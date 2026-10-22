@@ -1,0 +1,40 @@
+# OS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor / IDE configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies and build output
+node_modules/
+dist/
+.cache/
+
+# Environment files
+.env
+.env.*
+
+# Temporary / test files
+*.tmp
+*.bak
+*.orig
+test.html
+test*.html
+temp/
+tmp/
+scratch/
