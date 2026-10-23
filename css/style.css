@@ -403,6 +403,7 @@ h1, h2, h3 { font-family: var(--font-head); color: var(--c-heading); line-height
   border-radius: inherit;
   background: conic-gradient(from var(--glow-angle), var(--glow-1), var(--glow-2), var(--glow-3), var(--glow-4), var(--glow-1));
   -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
   -webkit-mask-composite: xor; mask-composite: exclude;
   animation: glow-spin var(--glow-speed) linear infinite;
   transition: opacity var(--dur) var(--ease);
