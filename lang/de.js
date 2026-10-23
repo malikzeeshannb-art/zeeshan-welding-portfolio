@@ -79,7 +79,7 @@ window.I18N_DICT.de = {
   "about.eyebrow": "Über mich",
   "about.title": "Aus harter Arbeit wird <span class=\"gold\">Chance</span>",
   "about.p1": "Ich bin Zeeshan Hafeez, zertifizierter Rohrschweißer mit Qualifikation für 6G SMAW Open-Root nach ASME Section IX. Mein Schwerpunkt ist das Schweißen von Rohrleitungen: Wurzel-, Heiß- und Füllagen an Kohlenstoffstahlrohren in der anspruchsvollsten, festen 6G-Position.",
-  "about.p2": "Ich habe über 5 Jahre Erfahrung im Lichtbogenschweißen in Pakistan und Saudi-Arabien an Rohren, Rohrleitungen, Blechen und im Stahlbau. Mein Ziel ist es, dokumentierte, nachprüfbare Erfahrung im Rohrschweißen aufzubauen und mich langfristig als Industrieschweißer zu entwickeln. Derzeit arbeite ich bei Al Rawaf Contracting in Medina, wo ich Schweiß- und Montagearbeiten an einem 300 m langen Rohrleitungsabschnitt ausführe.",
+  "about.p2": "Ich habe über 5 Jahre Erfahrung im Lichtbogenschweißen in Pakistan und Saudi-Arabien an Rohren, Rohrleitungen, Blechen und im Stahlbau. Mein Ziel ist es, dokumentierte, nachprüfbare Erfahrung im Rohrschweißen aufzubauen und mich langfristig als Industrieschweißer zu entwickeln. Derzeit arbeite ich bei Al Rawaf Contracting in Medina, wo ich Schweiß- und Montagearbeiten an einem 300+ m langen Rohrleitungsabschnitt ausführe.",
 
   // ---- aria ----
   "aria.openMap": "Medina in Google Maps öffnen",
@@ -110,7 +110,7 @@ window.I18N_DICT.de = {
   "exp.openTo": "Offen für Stellen als Rohrschweißer in KSA",
   "exp.date1": "Juni 2025 - heute",
   "exp.role1": "Be- und Entlader <small>(Schweiß- und Fertigungsaufgaben auf der Baustelle)</small>",
-  "exp.b1": "Schweiß- und Montagearbeiten an einem 300 m langen Rohrleitungsabschnitt, im Auftrag des Teams für Maschinenbau, gemeinsam mit Rohrleitungsbauern, Schleifern und der Kranmannschaft.",
+  "exp.b1": "Schweiß- und Montagearbeiten an einem 300+ m langen Rohrleitungsabschnitt, im Auftrag des Teams für Maschinenbau, gemeinsam mit Rohrleitungsbauern, Schleifern und der Kranmannschaft.",
   "exp.b2": "Stahlrahmen gefertigt und Erdungsbänder geschweißt.",
   "exp.b3": "Unterstützung des Elektroteams bei Erdungsbändern und Prüfpunkten für den kathodischen Korrosionsschutz (STP/DPT) an Rohrleitungen mit 60 und 72 Zoll, montiert per Pin-Brazing (Bolzenlöten).",
   "exp.b4": "Die Aufgaben des Lagerverwalters einen Monat lang eigenständig übernommen.",
@@ -223,7 +223,7 @@ window.I18N_DICT.de = {
   // ---- contact ----
   "contact.eyebrow": "Kontakt",
   "contact.title": "Lassen Sie uns <span class=\"gold\">zusammenarbeiten</span>",
-  "contact.lead": "Arbeitgeber und Personalverantwortliche: Wenn Sie eine passende Stelle im Rohrschweißen in Saudi-Arabien oder international haben, freue ich mich auf Ihre Nachricht.",
+  "contact.lead": "Arbeitgeber und Personalverantwortliche: Wenn Sie eine passende Stelle im Rohrschweißen in Saudi-Arabien haben, freue ich mich auf Ihre Nachricht.",
   "contact.chat": "Schreiben Sie mir",
   "contact.call": "Anrufen",
   "contact.email": "E-Mail",
@@ -233,7 +233,7 @@ window.I18N_DICT.de = {
   // ---- side ----
   "side.eyebrow": "Zusatzkompetenz",
   "side.title": "Mehr als <span class=\"gold\">Schweißen</span>",
-  "side.text": "Schweißen ist mein Beruf. Als Zusatzkompetenz bringe ich mir Webentwicklung selbst bei und erstelle einfache Websites, darunter dieses Portfolio und meinen Online-Lebenslauf. Sie finden mein <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">web portfolio</a>, mein <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a>-Profil und meine weiteren <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">Projekte</a>.",
+  "side.text": "Schweißen ist mein Beruf. Als Zusatzkompetenz bringe ich mir Webentwicklung selbst bei und erstelle einfache Websites, darunter dieses Portfolio und meinen Online-Lebenslauf. Sie finden mein <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">web portfolio</a>, meine <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/Java-Script-10-mini-projects/\" target=\"_blank\" rel=\"noopener\">Seite mit mehreren Projekten</a>, mein <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a>-Profil und meine weiteren <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">Projekte</a>.",
 
   // ---- footer ----
   "footer.socialAria": "Social-Media-Links",
@@ -281,7 +281,7 @@ window.I18N_DICT.de = {
   "theme.toDark": "Zum dunklen Design wechseln",
 
   // ---- hero ----
-  "hero.typed": ["Ich bin Rohrschweißer", "Ich bin SMAW-Schweißer", "Ich bin nach ASME Sec IX zertifiziert", "Ich bin Lichtbogenschweißer"],
+  "hero.typed": ["Ich bin Rohrleitungsschweißer", "Ich beherrsche die 6G-Position!", "Ich bin nach ASME Sec IX zertifiziert!", "Ich bin Lichtbogen-/SMAW-Schweißer", "Ich bin ein Schweißprofi"],
 
   // ---- gal ----
   "gal.photoDefault": "Schweißfoto",

@@ -79,7 +79,7 @@ window.I18N_DICT.it = {
   "about.eyebrow": "Chi sono",
   "about.title": "Trasformare il duro lavoro in <span class=\"gold\">opportunità</span>",
   "about.p1": "Sono Zeeshan Hafeez, saldatore di tubazioni certificato e qualificato 6G SMAW a radice aperta secondo ASME Section IX. Mi concentro sulla saldatura di condotte: passate di radice, a caldo e di riempimento su tubi in acciaio al carbonio, nella posizione fissa 6G, la più impegnativa.",
-  "about.p2": "Ho oltre 5 anni di esperienza nella saldatura ad arco in Pakistan e in Arabia Saudita su tubi, condotte, lamiere e carpenteria strutturale. Il mio obiettivo è costruire un’esperienza documentata e verificabile nella saldatura di tubazioni e crescere in una carriera a lungo termine come saldatore industriale. Oggi lavoro presso Al Rawaf Contracting a Medina, dove eseguo lavori di saldatura e installazione su un tratto di condotta di 300 m.",
+  "about.p2": "Ho oltre 5 anni di esperienza nella saldatura ad arco in Pakistan e in Arabia Saudita su tubi, condotte, lamiere e carpenteria strutturale. Il mio obiettivo è costruire un’esperienza documentata e verificabile nella saldatura di tubazioni e crescere in una carriera a lungo termine come saldatore industriale. Oggi lavoro presso Al Rawaf Contracting a Medina, dove eseguo lavori di saldatura e installazione su un tratto di condotta di 300+ m.",
 
   // ---- aria ----
   "aria.openMap": "Apri Medina su Google Maps",
@@ -110,7 +110,7 @@ window.I18N_DICT.it = {
   "exp.openTo": "Disponibile per posizioni da saldatore di tubazioni in Arabia Saudita",
   "exp.date1": "giu. 2025 - oggi",
   "exp.role1": "Addetto al carico e scarico <small>(mansioni di saldatura e fabbricazione in cantiere)</small>",
-  "exp.b1": "Eseguito lavori di saldatura e installazione su un tratto di condotta di 300 m, assegnati dal team di ingegneria meccanica, insieme a montatori di tubazioni, molatori e squadra gru.",
+  "exp.b1": "Eseguito lavori di saldatura e installazione su un tratto di condotta di 300+ m, assegnati dal team di ingegneria meccanica, insieme a montatori di tubazioni, molatori e squadra gru.",
   "exp.b2": "Realizzato telai in acciaio e saldato bandelle di messa a terra.",
   "exp.b3": "Supporto al team elettrico con bandelle di messa a terra e punti di test della protezione catodica (STP/DPT) su condotte da 60 e 72 pollici, installati con brasatura a perno (pin brazing).",
   "exp.b4": "Ricoperto in autonomia il ruolo di magazziniere per 1 mese.",
@@ -223,7 +223,7 @@ window.I18N_DICT.it = {
   // ---- contact ----
   "contact.eyebrow": "Contatti",
   "contact.title": "Lavoriamo <span class=\"gold\">insieme</span>",
-  "contact.lead": "Datori di lavoro e recruiter: se avete un’opportunità nella saldatura di tubazioni in Arabia Saudita o all’estero, sarò lieto di sentirvi.",
+  "contact.lead": "Datori di lavoro e recruiter: se avete un’opportunità nella saldatura di tubazioni in Arabia Saudita, sarò lieto di sentirvi.",
   "contact.chat": "Scrivimi",
   "contact.call": "Chiama",
   "contact.email": "E-mail",
@@ -233,7 +233,7 @@ window.I18N_DICT.it = {
   // ---- side ----
   "side.eyebrow": "Competenza aggiuntiva",
   "side.title": "Oltre la <span class=\"gold\">saldatura</span>",
-  "side.text": "La saldatura è la mia professione. Come competenza aggiuntiva, imparo da autodidatta lo sviluppo web e creo semplici siti, tra cui questo portfolio e il mio CV online. Puoi vedere il mio <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">portfolio web</a>, il mio profilo <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a> e gli altri miei <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">progetti</a>.",
+  "side.text": "La saldatura è la mia professione. Come competenza aggiuntiva, imparo da autodidatta lo sviluppo web e creo semplici siti, tra cui questo portfolio e il mio CV online. Puoi vedere il mio <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">portfolio web</a>, la mia <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/Java-Script-10-mini-projects/\" target=\"_blank\" rel=\"noopener\">pagina multi-progetto</a>, il mio profilo <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a> e gli altri miei <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">progetti</a>.",
 
   // ---- footer ----
   "footer.socialAria": "Link ai social",
@@ -281,7 +281,7 @@ window.I18N_DICT.it = {
   "theme.toDark": "Passa al tema scuro",
 
   // ---- hero ----
-  "hero.typed": ["Sono un saldatore di tubazioni", "Sono un saldatore SMAW", "Sono certificato ASME Sec IX", "Sono un saldatore ad arco"],
+  "hero.typed": ["Sono un saldatore di condotte", "Padroneggio la posizione 6G!", "Sono certificato ASME Sec IX!", "Sono un saldatore ad arco / SMAW", "Sono un professionista della saldatura"],
 
   // ---- gal ----
   "gal.photoDefault": "Foto di saldatura",

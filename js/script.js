@@ -129,33 +129,72 @@
     revealItems.forEach(function (el) { el.classList.add("is-visible"); });
   }
 
-  /* ---------- 7. TYPEWRITER HEADLINE ---------- */
+  /* ---------- 7. TYPEWRITER HEADLINE ----------
+     The phrases are NOT written here. They come from the active language
+     file (lang/<code>.js, key "hero.typed" = an array of phrases) through
+     I18N.t(). When the language changes, i18n.js fires "i18n:change" and
+     the typing restarts with the new language. To edit the phrases, edit
+     "hero.typed" in all 12 lang files. */
   var typedEl = document.getElementById("typedText");
   if (typedEl) {
-    var phrases = ["I'm a pipe welder", "I'm a SMAW welder", "I'm ASME Sec IX certified", "I'm ARC welder"];
-    var p = 0, c = 0, deleting = false;
+    var fallbackText = typedEl.textContent;   // the text already in the HTML (used only if the dictionary fails)
+    var runId = 0, timer = null;
 
-    if (reduceMotion) {
-      // no typing: just swap the phrase every 2.8 seconds
-      typedEl.textContent = phrases[0];
-      setInterval(function () { p = (p + 1) % phrases.length; typedEl.textContent = phrases[p]; }, 2800);
-    } else {
+    function getPhrases() {
+      var list = window.I18N ? window.I18N.t("hero.typed") : null;
+      return (Array.isArray(list) && list.length) ? list : [fallbackText];
+    }
+
+    // split a phrase into letters (not code units) so Hindi / Urdu / Arabic marks are never cut in half
+    function toLetters(str) {
+      try {
+        if (window.Intl && Intl.Segmenter) {
+          return Array.from(new Intl.Segmenter(undefined, { granularity: "grapheme" }).segment(str), function (s) { return s.segment; });
+        }
+      } catch (e) { /* use the simple split below */ }
+      return Array.from(str);
+    }
+
+    function startTyping() {
+      var myRun = ++runId;                    // a newer start cancels the older one
+      clearTimeout(timer);
+      var phrases = getPhrases().map(toLetters);
+      var p = 0, c = 0, deleting = false;
+
+      if (reduceMotion) {
+        // no typing: just swap the phrase every 2.8 seconds
+        typedEl.textContent = phrases[0].join("");
+        (function swap() {
+          timer = setTimeout(function () {
+            if (myRun !== runId) return;
+            p = (p + 1) % phrases.length;
+            typedEl.textContent = phrases[p].join("");
+            swap();
+          }, 2800);
+        })();
+        return;
+      }
+
       (function tick() {
+        if (myRun !== runId) return;
         var word = phrases[p];
         var delay;
         if (!deleting) {
           c++;
           delay = 75;
-          if (c === word.length) { deleting = true; delay = 1500; }   // pause when phrase is complete
+          if (c >= word.length) { c = word.length; deleting = true; delay = 1500; }   // pause when phrase is complete
         } else {
           c--;
           delay = 38;
-          if (c === 0) { deleting = false; p = (p + 1) % phrases.length; delay = 380; }
+          if (c <= 0) { c = 0; deleting = false; p = (p + 1) % phrases.length; delay = 380; }
         }
-        typedEl.textContent = word.slice(0, c);
-        setTimeout(tick, delay);
+        typedEl.textContent = word.slice(0, c).join("");
+        timer = setTimeout(tick, delay);
       })();
     }
+
+    startTyping();                                         // first run: language already chosen by i18n.js
+    document.addEventListener("i18n:change", startTyping); // every later language switch
   }
 })();
 

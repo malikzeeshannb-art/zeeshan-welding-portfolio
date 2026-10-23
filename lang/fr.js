@@ -79,7 +79,7 @@ window.I18N_DICT.fr = {
   "about.eyebrow": "À propos de moi",
   "about.title": "Transformer le travail acharné en <span class=\"gold\">opportunité</span>",
   "about.p1": "Je suis Zeeshan Hafeez, soudeur tuyauteur certifié, qualifié en 6G SMAW à racine ouverte selon ASME Section IX. Je me concentre sur le soudage de pipelines : passes de racine, passes à chaud et passes de remplissage sur tubes en acier au carbone, dans la position fixe 6G, la plus exigeante.",
-  "about.p2": "J’ai plus de 5 ans d’expérience en soudage à l’arc au Pakistan et en Arabie saoudite, sur tubes, pipelines, tôles et structures métalliques. Je souhaite bâtir une expérience documentée et vérifiable en soudage de tubes et évoluer vers une carrière durable de soudeur industriel. Aujourd’hui, je travaille chez Al Rawaf Contracting à Médine, où j’effectue des travaux de soudage et d’installation sur une section de pipeline de 300 m.",
+  "about.p2": "J’ai plus de 5 ans d’expérience en soudage à l’arc au Pakistan et en Arabie saoudite, sur tubes, pipelines, tôles et structures métalliques. Je souhaite bâtir une expérience documentée et vérifiable en soudage de tubes et évoluer vers une carrière durable de soudeur industriel. Aujourd’hui, je travaille chez Al Rawaf Contracting à Médine, où j’effectue des travaux de soudage et d’installation sur une section de pipeline de 300+ m.",
 
   // ---- aria ----
   "aria.openMap": "Ouvrir Médine dans Google Maps",
@@ -110,7 +110,7 @@ window.I18N_DICT.fr = {
   "exp.openTo": "Ouvert aux postes de soudeur tuyauteur en Arabie saoudite",
   "exp.date1": "juin 2025 - aujourd’hui",
   "exp.role1": "Manutentionnaire chargement et déchargement <small>(tâches de soudage et de fabrication sur chantier)</small>",
-  "exp.b1": "Travaux de soudage et d’installation sur une section de pipeline de 300 m, confiés par l’équipe d’ingénierie mécanique, avec des tuyauteurs, des meuleurs et l’équipe de grutage.",
+  "exp.b1": "Travaux de soudage et d’installation sur une section de pipeline de 300+ m, confiés par l’équipe d’ingénierie mécanique, avec des tuyauteurs, des meuleurs et l’équipe de grutage.",
   "exp.b2": "Fabrication de cadres en acier et soudage de bandes de mise à la terre.",
   "exp.b3": "Appui à l’équipe électrique pour les bandes de mise à la terre et les points de test de protection cathodique (STP/DPT) sur des pipelines de 60 et 72 pouces, installés par brasage à la broche (pin brazing).",
   "exp.b4": "Tenue autonome du poste de magasinier pendant 1 mois.",
@@ -223,7 +223,7 @@ window.I18N_DICT.fr = {
   // ---- contact ----
   "contact.eyebrow": "Contact",
   "contact.title": "Travaillons <span class=\"gold\">ensemble</span>",
-  "contact.lead": "Employeurs et recruteurs : si vous avez une opportunité de soudage de tubes en Arabie saoudite ou à l’international, je serai heureux d’échanger avec vous.",
+  "contact.lead": "Employeurs et recruteurs : si vous avez une opportunité de soudage de tubes en Arabie saoudite, je serai heureux d’échanger avec vous.",
   "contact.chat": "Discutons",
   "contact.call": "Appeler",
   "contact.email": "E-mail",
@@ -233,7 +233,7 @@ window.I18N_DICT.fr = {
   // ---- side ----
   "side.eyebrow": "Compétence complémentaire",
   "side.title": "Au-delà du <span class=\"gold\">soudage</span>",
-  "side.text": "Le soudage est mon métier. En compétence complémentaire, j’apprends seul le développement web et je crée des sites simples, dont ce portfolio et mon CV en ligne. Vous pouvez consulter mon <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">portfolio web</a>, mon profil <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a> et mes autres <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">projets</a>.",
+  "side.text": "Le soudage est mon métier. En compétence complémentaire, j’apprends seul le développement web et je crée des sites simples, dont ce portfolio et mon CV en ligne. Vous pouvez consulter mon <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">portfolio web</a>, ma <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/Java-Script-10-mini-projects/\" target=\"_blank\" rel=\"noopener\">page multi-projets</a>, mon profil <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a> et mes autres <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">projets</a>.",
 
   // ---- footer ----
   "footer.socialAria": "Liens vers les réseaux sociaux",
@@ -281,7 +281,7 @@ window.I18N_DICT.fr = {
   "theme.toDark": "Passer au thème sombre",
 
   // ---- hero ----
-  "hero.typed": ["Je suis soudeur tuyauteur", "Je suis soudeur SMAW", "Je suis certifié ASME Sec IX", "Je suis soudeur à l’arc"],
+  "hero.typed": ["Je suis soudeur de pipelines", "Je maîtrise la position 6G !", "Je suis certifié ASME Sec IX !", "Je suis soudeur à l’arc / SMAW", "Je suis un professionnel du soudage"],
 
   // ---- gal ----
   "gal.photoDefault": "Photo de soudage",

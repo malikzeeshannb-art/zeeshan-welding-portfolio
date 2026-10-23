@@ -79,7 +79,7 @@ window.I18N_DICT.no = {
   "about.eyebrow": "Om meg",
   "about.title": "Hardt arbeid blir til <span class=\"gold\">muligheter</span>",
   "about.p1": "Jeg er Zeeshan Hafeez, en sertifisert rørsveiser kvalifisert i 6G SMAW med åpen rot etter ASME Section IX. Jeg fokuserer på rørledningssveising: rotstrenger, varmstrenger og fyllstrenger på karbonstålrør i den vanskeligste, faste 6G-posisjonen.",
-  "about.p2": "Jeg har over 5 års erfaring med buesveising i Pakistan og Saudi-Arabia på rør, rørledninger, plater og stålkonstruksjoner. Jeg vil bygge dokumentert, etterprøvbar erfaring innen rørsveising og utvikle meg til en langsiktig karriere som industrisveiser. I dag jobber jeg hos Al Rawaf Contracting i Medina, der jeg utfører sveise- og monteringsarbeid på en 300 m lang rørledningsseksjon.",
+  "about.p2": "Jeg har over 5 års erfaring med buesveising i Pakistan og Saudi-Arabia på rør, rørledninger, plater og stålkonstruksjoner. Jeg vil bygge dokumentert, etterprøvbar erfaring innen rørsveising og utvikle meg til en langsiktig karriere som industrisveiser. I dag jobber jeg hos Al Rawaf Contracting i Medina, der jeg utfører sveise- og monteringsarbeid på en 300+ m lang rørledningsseksjon.",
 
   // ---- aria ----
   "aria.openMap": "Åpne Medina i Google Maps",
@@ -110,7 +110,7 @@ window.I18N_DICT.no = {
   "exp.openTo": "Åpen for stillinger som rørsveiser i Saudi-Arabia",
   "exp.date1": "juni 2025 - nå",
   "exp.role1": "Laste- og lossearbeider <small>(sveise- og fabrikasjonsoppgaver på byggeplass)</small>",
-  "exp.b1": "Utførte sveise- og monteringsarbeid på en 300 m lang rørledningsseksjon, tildelt av maskiningeniørteamet, sammen med rørmontører, slipere og kranlaget.",
+  "exp.b1": "Utførte sveise- og monteringsarbeid på en 300+ m lang rørledningsseksjon, tildelt av maskiningeniørteamet, sammen med rørmontører, slipere og kranlaget.",
   "exp.b2": "Fabrikerte stålrammer og sveiset jordingsbånd.",
   "exp.b3": "Støttet elektroteamet med jordingsbånd og testpunkter for katodisk beskyttelse (STP/DPT) på rørledninger på 60 og 72 tommer, montert med pinnlodding (pin brazing).",
   "exp.b4": "Overtok lageransvaret på egen hånd i 1 måned.",
@@ -223,7 +223,7 @@ window.I18N_DICT.no = {
   // ---- contact ----
   "contact.eyebrow": "Kontakt",
   "contact.title": "La oss <span class=\"gold\">jobbe sammen</span>",
-  "contact.lead": "Arbeidsgivere og rekrutterere: Hvis dere har en aktuell mulighet innen rørsveising i Saudi-Arabia eller internasjonalt, tar jeg gjerne imot en henvendelse.",
+  "contact.lead": "Arbeidsgivere og rekrutterere: Hvis dere har en aktuell mulighet innen rørsveising i Saudi-Arabia, tar jeg gjerne imot en henvendelse.",
   "contact.chat": "Chat med meg",
   "contact.call": "Ring",
   "contact.email": "E-post",
@@ -233,7 +233,7 @@ window.I18N_DICT.no = {
   // ---- side ----
   "side.eyebrow": "Tilleggsferdighet",
   "side.title": "Utover <span class=\"gold\">sveising</span>",
-  "side.text": "Sveising er yrket mitt. Som tilleggsferdighet lærer jeg meg webutvikling på egen hånd og lager enkle nettsider, blant annet denne porteføljen og min digitale CV. Du kan se <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">webporteføljen min</a>, <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a>-profilen min og mine andre <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">prosjekter</a>.",
+  "side.text": "Sveising er yrket mitt. Som tilleggsferdighet lærer jeg meg webutvikling på egen hånd og lager enkle nettsider, blant annet denne porteføljen og min digitale CV. Du kan se <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">webporteføljen min</a>, <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/Java-Script-10-mini-projects/\" target=\"_blank\" rel=\"noopener\">flerprosjektsiden min</a>, <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a>-profilen min og mine andre <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">prosjekter</a>.",
 
   // ---- footer ----
   "footer.socialAria": "Lenker til sosiale medier",
@@ -281,7 +281,7 @@ window.I18N_DICT.no = {
   "theme.toDark": "Bytt til mørkt tema",
 
   // ---- hero ----
-  "hero.typed": ["Jeg er rørsveiser", "Jeg er SMAW-sveiser", "Jeg er sertifisert etter ASME Sec IX", "Jeg er buesveiser"],
+  "hero.typed": ["Jeg er rørledningssveiser", "Jeg mestrer 6G-posisjonen!", "Jeg er sertifisert etter ASME Sec IX!", "Jeg er buesveiser / SMAW-sveiser", "Jeg er en profesjonell sveiser"],
 
   // ---- gal ----
   "gal.photoDefault": "Sveisebilde",

@@ -79,7 +79,7 @@ window.I18N_DICT.ro = {
   "about.eyebrow": "Despre mine",
   "about.title": "Transformând munca grea în <span class=\"gold\">oportunitate</span>",
   "about.p1": "Sunt Zeeshan Hafeez, sudor de țevi certificat, calificat în 6G SMAW cu rădăcină deschisă conform ASME Section IX. Mă axez pe sudarea conductelor: treceri de rădăcină, treceri la cald și de umplere pe țevi din oțel carbon, în poziția fixă 6G, cea mai dificilă.",
-  "about.p2": "Am peste 5 ani de experiență în sudarea cu arc în Pakistan și Arabia Saudită, pe țevi, conducte, plăci și structuri metalice. Îmi doresc să acumulez experiență documentată și verificabilă în sudarea țevilor și să construiesc o carieră pe termen lung ca sudor industrial. În prezent lucrez la Al Rawaf Contracting, în Medina, unde execut lucrări de sudură și instalare pe o secțiune de conductă de 300 m.",
+  "about.p2": "Am peste 5 ani de experiență în sudarea cu arc în Pakistan și Arabia Saudită, pe țevi, conducte, plăci și structuri metalice. Îmi doresc să acumulez experiență documentată și verificabilă în sudarea țevilor și să construiesc o carieră pe termen lung ca sudor industrial. În prezent lucrez la Al Rawaf Contracting, în Medina, unde execut lucrări de sudură și instalare pe o secțiune de conductă de 300+ m.",
 
   // ---- aria ----
   "aria.openMap": "Deschide Medina în Google Maps",
@@ -110,7 +110,7 @@ window.I18N_DICT.ro = {
   "exp.openTo": "Disponibil pentru posturi de sudor de țevi în Arabia Saudită",
   "exp.date1": "iun. 2025 - prezent",
   "exp.role1": "Muncitor încărcare-descărcare <small>(atribuții de sudură și fabricație pe șantier)</small>",
-  "exp.b1": "Am executat lucrări de sudură și instalare pe o secțiune de conductă de 300 m, repartizate de echipa de inginerie mecanică, împreună cu montatorii de conducte, polizorii și echipa macaralei.",
+  "exp.b1": "Am executat lucrări de sudură și instalare pe o secțiune de conductă de 300+ m, repartizate de echipa de inginerie mecanică, împreună cu montatorii de conducte, polizorii și echipa macaralei.",
   "exp.b2": "Am fabricat cadre din oțel și am sudat benzi de legare la pământ.",
   "exp.b3": "Am sprijinit echipa electrică la benzile de legare la pământ și la punctele de test ale protecției catodice (STP/DPT) pe conducte de 60 și 72 inci, instalate prin pin brazing.",
   "exp.b4": "Am preluat singur rolul de magazioner timp de 1 lună.",
@@ -223,7 +223,7 @@ window.I18N_DICT.ro = {
   // ---- contact ----
   "contact.eyebrow": "Contact",
   "contact.title": "Să <span class=\"gold\">lucrăm împreună</span>",
-  "contact.lead": "Angajatori și recrutori: dacă aveți o oportunitate relevantă în sudarea țevilor în Arabia Saudită sau în străinătate, aș fi bucuros să aflu de la dumneavoastră.",
+  "contact.lead": "Angajatori și recrutori: dacă aveți o oportunitate relevantă în sudarea țevilor în Arabia Saudită, aș fi bucuros să aflu de la dumneavoastră.",
   "contact.chat": "Scrie-mi",
   "contact.call": "Sună",
   "contact.email": "E-mail",
@@ -233,7 +233,7 @@ window.I18N_DICT.ro = {
   // ---- side ----
   "side.eyebrow": "Competență secundară",
   "side.title": "Dincolo de <span class=\"gold\">sudură</span>",
-  "side.text": "Sudura este profesia mea. Ca abilitate secundară, învăț singur dezvoltare web și creez site-uri simple, inclusiv acest portofoliu și CV-ul meu online. Puteți vedea <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">portofoliul meu web</a>, profilul meu de <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a> și celelalte <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">proiecte</a> ale mele.",
+  "side.text": "Sudura este profesia mea. Ca abilitate secundară, învăț singur dezvoltare web și creez site-uri simple, inclusiv acest portofoliu și CV-ul meu online. Puteți vedea <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">portofoliul meu web</a>, <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/Java-Script-10-mini-projects/\" target=\"_blank\" rel=\"noopener\">pagina mea cu mai multe proiecte</a>, profilul meu de <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a> și celelalte <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">proiecte</a> ale mele.",
 
   // ---- footer ----
   "footer.socialAria": "Linkuri către rețele sociale",
@@ -281,7 +281,7 @@ window.I18N_DICT.ro = {
   "theme.toDark": "Comută la tema întunecată",
 
   // ---- hero ----
-  "hero.typed": ["Sunt sudor de țevi", "Sunt sudor SMAW", "Sunt certificat ASME Sec IX", "Sunt sudor cu arc"],
+  "hero.typed": ["Sunt sudor de conducte", "Stăpânesc poziția 6G!", "Sunt certificat ASME Sec IX!", "Sunt sudor cu arc / SMAW", "Sunt un profesionist în sudură"],
 
   // ---- gal ----
   "gal.photoDefault": "Fotografie de sudură",

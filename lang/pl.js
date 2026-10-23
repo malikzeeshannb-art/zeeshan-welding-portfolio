@@ -79,7 +79,7 @@ window.I18N_DICT.pl = {
   "about.eyebrow": "O mnie",
   "about.title": "Ciężka praca zmieniona w <span class=\"gold\">szansę</span>",
   "about.p1": "Nazywam się Zeeshan Hafeez i jestem certyfikowanym spawaczem rur z kwalifikacją 6G SMAW open-root wg ASME Section IX. Specjalizuję się w spawaniu rurociągów: przetopy, przejścia gorące i wypełniające na rurach ze stali węglowej w najtrudniejszej, stałej pozycji 6G.",
-  "about.p2": "Mam ponad 5 lat doświadczenia w spawaniu łukowym w Pakistanie i Arabii Saudyjskiej przy rurach, rurociągach, blachach i konstrukcjach stalowych. Chcę budować udokumentowane, weryfikowalne doświadczenie w spawaniu rur i rozwijać się na dłuższą metę jako spawacz przemysłowy. Obecnie pracuję w Al Rawaf Contracting w Medynie, gdzie wykonuję prace spawalnicze i montażowe na odcinku rurociągu o długości 300 m.",
+  "about.p2": "Mam ponad 5 lat doświadczenia w spawaniu łukowym w Pakistanie i Arabii Saudyjskiej przy rurach, rurociągach, blachach i konstrukcjach stalowych. Chcę budować udokumentowane, weryfikowalne doświadczenie w spawaniu rur i rozwijać się na dłuższą metę jako spawacz przemysłowy. Obecnie pracuję w Al Rawaf Contracting w Medynie, gdzie wykonuję prace spawalnicze i montażowe na odcinku rurociągu o długości 300+ m.",
 
   // ---- aria ----
   "aria.openMap": "Otwórz Medynę w Mapach Google",
@@ -110,7 +110,7 @@ window.I18N_DICT.pl = {
   "exp.openTo": "Otwarty na oferty pracy spawacza rur w Arabii Saudyjskiej",
   "exp.date1": "cze 2025 - obecnie",
   "exp.role1": "Pracownik załadunku i rozładunku <small>(obowiązki spawalnicze i montażowe na budowie)</small>",
-  "exp.b1": "Wykonywałem prace spawalnicze i montażowe na odcinku rurociągu o długości 300 m, zlecone przez zespół inżynierii mechanicznej, wspólnie z monterami rurociągów, szlifierzami i ekipą dźwigową.",
+  "exp.b1": "Wykonywałem prace spawalnicze i montażowe na odcinku rurociągu o długości 300+ m, zlecone przez zespół inżynierii mechanicznej, wspólnie z monterami rurociągów, szlifierzami i ekipą dźwigową.",
   "exp.b2": "Wykonywałem stalowe ramy i spawałem taśmy uziemiające.",
   "exp.b3": "Wspierałem zespół elektryczny przy taśmach uziemiających i punktach pomiarowych ochrony katodowej (STP/DPT) na rurociągach 60\" i 72\", montowanych metodą pin brazing.",
   "exp.b4": "Samodzielnie pełniłem obowiązki magazyniera przez 1 miesiąc.",
@@ -223,7 +223,7 @@ window.I18N_DICT.pl = {
   // ---- contact ----
   "contact.eyebrow": "Kontakt",
   "contact.title": "Pracujmy <span class=\"gold\">razem</span>",
-  "contact.lead": "Pracodawcy i rekruterzy: jeśli macie ofertę związaną ze spawaniem rur w Arabii Saudyjskiej lub za granicą, chętnie odpowiem.",
+  "contact.lead": "Pracodawcy i rekruterzy: jeśli macie ofertę związaną ze spawaniem rur w Arabii Saudyjskiej, chętnie odpowiem.",
   "contact.chat": "Napisz do mnie",
   "contact.call": "Zadzwoń",
   "contact.email": "E-mail",
@@ -233,7 +233,7 @@ window.I18N_DICT.pl = {
   // ---- side ----
   "side.eyebrow": "Dodatkowa umiejętność",
   "side.title": "Poza <span class=\"gold\">spawaniem</span>",
-  "side.text": "Spawanie to mój zawód. Jako dodatkową umiejętność uczę się samodzielnie tworzenia stron internetowych i buduję proste witryny, w tym to portfolio i moje internetowe CV. Zobacz moje <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">portfolio webowe</a>, profil na <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHubie</a> i pozostałe <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">projekty</a>.",
+  "side.text": "Spawanie to mój zawód. Jako dodatkową umiejętność uczę się samodzielnie tworzenia stron internetowych i buduję proste witryny, w tym to portfolio i moje internetowe CV. Zobacz moje <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">portfolio webowe</a>, <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/Java-Script-10-mini-projects/\" target=\"_blank\" rel=\"noopener\">stronę z wieloma projektami</a>, profil na <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHubie</a> i pozostałe <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">projekty</a>.",
 
   // ---- footer ----
   "footer.socialAria": "Linki społecznościowe",
@@ -281,7 +281,7 @@ window.I18N_DICT.pl = {
   "theme.toDark": "Przełącz na ciemny motyw",
 
   // ---- hero ----
-  "hero.typed": ["Jestem spawaczem rur", "Jestem spawaczem SMAW", "Mam certyfikat ASME Sec IX", "Jestem spawaczem łukowym"],
+  "hero.typed": ["Jestem spawaczem rurociągów", "Opanowałem pozycję 6G!", "Mam certyfikat ASME Sec IX!", "Jestem spawaczem łukowym / SMAW", "Jestem profesjonalnym spawaczem"],
 
   // ---- gal ----
   "gal.photoDefault": "Zdjęcie spawania",

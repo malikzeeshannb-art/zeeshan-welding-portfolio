@@ -85,7 +85,7 @@ window.I18N_DICT.en = {
   "about.eyebrow": "About me",
   "about.title": "Turning Hard Work Into <span class=\"gold\">Opportunity</span>",
   "about.p1": "I'm Zeeshan Hafeez, a certified pipe welder qualified in 6G SMAW open-root under ASME Section IX. My focus is pipeline welding: root, hot and fill passes on carbon steel pipe in the hardest, fixed 6G position.",
-  "about.p2": "I have 5+ years of arc welding experience in Pakistan and Saudi Arabia on pipe, pipeline, plate and structural fabrication. I'm committed to building documented, verifiable pipe-welding experience and growing into a long-term career as an industrial welder. Today I'm at Al Rawaf Contracting in Madinah, where I carry out welding and installation work on a 300 m pipeline section.",
+  "about.p2": "I have 5+ years of arc welding experience in Pakistan and Saudi Arabia on pipe, pipeline, plate and structural fabrication. I'm committed to building documented, verifiable pipe-welding experience and growing into a long-term career as an industrial welder. Today I'm at Al Rawaf Contracting in Madinah, where I carry out welding and installation work on a 300+ meter pipeline section.",
 
   // ---- aria ----
   "aria.openMap": "Open Madinah on Google Maps",
@@ -116,7 +116,7 @@ window.I18N_DICT.en = {
   "exp.openTo": "Open to pipe welder roles in KSA",
   "exp.date1": "Jun 2025 - Present",
   "exp.role1": "Loader &amp; Unloader Worker <small>(site welding &amp; fabrication duties)</small>",
-  "exp.b1": "Carried out welding and installation work on a 300 m pipeline section, assigned by the mechanical engineering team, together with pipe fitters, grinder men and the crane crew.",
+  "exp.b1": "Carried out welding and installation work on a 300+ m pipeline section, assigned by the mechanical engineering team, together with pipe fitters, grinder men and the crane crew.",
   "exp.b2": "Fabricated steel frames and welded earthing strips.",
   "exp.b3": "Supported the electrical team with earthing strips and cathodic protection test points (STP/DPT) on 60\" and 72\" pipelines, installed by pin brazing.",
   "exp.b4": "Covered the storekeeper role independently for 1 month.",
@@ -229,7 +229,7 @@ window.I18N_DICT.en = {
   // ---- contact ----
   "contact.eyebrow": "Contact",
   "contact.title": "Let's <span class=\"gold\">Work Together</span>",
-  "contact.lead": "Employers and recruiters: if you have a relevant pipe welding opportunity in Saudi Arabia or internationally, I would be glad to hear from you.",
+  "contact.lead": "Employers and recruiters: if you have a relevant pipe welding opportunity in Saudi Arabia, I would be glad to hear from you.",
   "contact.chat": "Chat with me",
   "contact.call": "Call",
   "contact.email": "Email",
@@ -239,7 +239,7 @@ window.I18N_DICT.en = {
   // ---- side ----
   "side.eyebrow": "Side skill",
   "side.title": "Beyond <span class=\"gold\">Welding</span>",
-  "side.text": "Welding is my profession. As a side skill, I teach myself web development and build simple websites, including this portfolio and my online CV. You can see my <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">web portfolio</a>, my <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a> profile and my other <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">projects</a>.",
+  "side.text": "Welding is my profession. As a side skill, I teach myself web development and build simple websites, including this portfolio and my online CV. You can see my <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">web portfolio</a>, my Multiple <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/Java-Script-10-mini-projects/\" target=\"_blank\" rel=\"noopener\">Project's Page</a>, my <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a> profile and my other <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">projects</a>.",
 
   // ---- footer ----
   "footer.socialAria": "Social links",
@@ -287,7 +287,7 @@ window.I18N_DICT.en = {
   "theme.toDark": "Switch to dark theme",
 
   // ---- hero ----
-  "hero.typed": ["I'm a pipe welder", "I'm a SMAW welder", "I'm ASME Sec IX certified", "I'm ARC welder"],
+  "hero.typed": ["I'm pipe-line welder", "I'm Master of the 6G Position!", "I'm certified in ASME Sec IX!", "I'm ARC / SMAW welder", "I'm a welding professional"],
 
   // ---- gal ----
   "gal.photoDefault": "Welding photo",

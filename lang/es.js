@@ -79,7 +79,7 @@ window.I18N_DICT.es = {
   "about.eyebrow": "Sobre mí",
   "about.title": "Convertir el esfuerzo en <span class=\"gold\">oportunidad</span>",
   "about.p1": "Soy Zeeshan Hafeez, soldador de tuberías certificado y cualificado en 6G SMAW con raíz abierta según ASME Section IX. Me especializo en la soldadura de oleoductos: pases de raíz, pases en caliente y de relleno en tubería de acero al carbono, en la posición fija 6G, la más exigente.",
-  "about.p2": "Tengo más de 5 años de experiencia en soldadura por arco en Pakistán y Arabia Saudita en tuberías, oleoductos, chapas y fabricación estructural. Mi objetivo es acumular experiencia documentada y verificable en soldadura de tuberías y desarrollar una carrera a largo plazo como soldador industrial. Actualmente trabajo en Al Rawaf Contracting, en Medina, donde realizo trabajos de soldadura e instalación en un tramo de tubería de 300 m.",
+  "about.p2": "Tengo más de 5 años de experiencia en soldadura por arco en Pakistán y Arabia Saudita en tuberías, oleoductos, chapas y fabricación estructural. Mi objetivo es acumular experiencia documentada y verificable en soldadura de tuberías y desarrollar una carrera a largo plazo como soldador industrial. Actualmente trabajo en Al Rawaf Contracting, en Medina, donde realizo trabajos de soldadura e instalación en un tramo de tubería de 300+ m.",
 
   // ---- aria ----
   "aria.openMap": "Abrir Medina en Google Maps",
@@ -110,7 +110,7 @@ window.I18N_DICT.es = {
   "exp.openTo": "Disponible para puestos de soldador de tuberías en Arabia Saudita",
   "exp.date1": "jun. 2025 - actualidad",
   "exp.role1": "Cargador y descargador <small>(tareas de soldadura y fabricación en obra)</small>",
-  "exp.b1": "Realicé trabajos de soldadura e instalación en un tramo de tubería de 300 m, asignados por el equipo de ingeniería mecánica, junto con montadores de tuberías, amoladores y el equipo de grúa.",
+  "exp.b1": "Realicé trabajos de soldadura e instalación en un tramo de tubería de 300+ m, asignados por el equipo de ingeniería mecánica, junto con montadores de tuberías, amoladores y el equipo de grúa.",
   "exp.b2": "Fabriqué estructuras de acero y soldé pletinas de puesta a tierra.",
   "exp.b3": "Apoyo al equipo eléctrico con pletinas de puesta a tierra y puntos de prueba de protección catódica (STP/DPT) en tuberías de 60 y 72 pulgadas, instalados mediante soldadura fuerte con pin (pin brazing).",
   "exp.b4": "Asumí de forma independiente el puesto de encargado de almacén durante 1 mes.",
@@ -223,7 +223,7 @@ window.I18N_DICT.es = {
   // ---- contact ----
   "contact.eyebrow": "Contacto",
   "contact.title": "Trabajemos <span class=\"gold\">juntos</span>",
-  "contact.lead": "Empleadores y reclutadores: si tienen una oportunidad de soldadura de tuberías en Arabia Saudita o en el extranjero, me encantará saber de ustedes.",
+  "contact.lead": "Empleadores y reclutadores: si tienen una oportunidad de soldadura de tuberías en Arabia Saudita, me encantará saber de ustedes.",
   "contact.chat": "Escríbeme",
   "contact.call": "Llamar",
   "contact.email": "Correo electrónico",
@@ -233,7 +233,7 @@ window.I18N_DICT.es = {
   // ---- side ----
   "side.eyebrow": "Habilidad complementaria",
   "side.title": "Más allá de la <span class=\"gold\">soldadura</span>",
-  "side.text": "La soldadura es mi profesión. Como habilidad complementaria, aprendo desarrollo web por mi cuenta y creo sitios web sencillos, entre ellos este portafolio y mi CV en línea. Puede ver mi <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">portafolio web</a>, mi perfil de <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a> y mis otros <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">proyectos</a>.",
+  "side.text": "La soldadura es mi profesión. Como habilidad complementaria, aprendo desarrollo web por mi cuenta y creo sitios web sencillos, entre ellos este portafolio y mi CV en línea. Puede ver mi <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/multi-page-portfolio-website/index.html\" target=\"_blank\" rel=\"noopener\">portafolio web</a>, mi <a class=\"text-link\" href=\"https://malikzeeshannb-art.github.io/Java-Script-10-mini-projects/\" target=\"_blank\" rel=\"noopener\">página de múltiples proyectos</a>, mi perfil de <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art\" target=\"_blank\" rel=\"noopener\">GitHub</a> y mis otros <a class=\"text-link\" href=\"https://github.com/malikzeeshannb-art?tab=repositories\" target=\"_blank\" rel=\"noopener\">proyectos</a>.",
 
   // ---- footer ----
   "footer.socialAria": "Enlaces a redes sociales",
@@ -281,7 +281,7 @@ window.I18N_DICT.es = {
   "theme.toDark": "Cambiar al tema oscuro",
 
   // ---- hero ----
-  "hero.typed": ["Soy soldador de tuberías", "Soy soldador SMAW", "Estoy certificado ASME Sec IX", "Soy soldador por arco"],
+  "hero.typed": ["Soy soldador de líneas de tubería", "¡Domino la posición 6G!", "¡Estoy certificado ASME Sec IX!", "Soy soldador por arco / SMAW", "Soy un profesional de la soldadura"],
 
   // ---- gal ----
   "gal.photoDefault": "Foto de soldadura",
