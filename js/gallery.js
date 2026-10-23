@@ -1,7 +1,6 @@
 /* =====================================================================
    GALLERY PAGES (photos.html + videos.html)  |  gallery.js
    Reads the lists in js/gallery-data.js and builds the grid.
-   You never need to edit this file to add photos or videos.
    ===================================================================== */
 (function () {
   "use strict";

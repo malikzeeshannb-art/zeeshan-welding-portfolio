@@ -205,10 +205,10 @@
   --shadow-card: 0 18px 40px rgba(0, 0, 0, 0.45);
   --shadow-pop: 0 18px 44px rgba(0, 0, 0, 0.6);
 
-  --glow-1: #4285f4;               /* Google-style: blue, green, yellow, red */
-  --glow-2: #34a853;
+  --glow-1: #2c77f0;               /* Google-style: blue, green, yellow, red */
+  --glow-2: #2dc556;
   --glow-3: #fbbc05;
-  --glow-4: #ea4335;
+  --glow-4: #e62c1b;
   --glow-opacity: 0.9;
 
   /* glass (sidebar) */
@@ -699,8 +699,8 @@ h1, h2, h3 { font-family: var(--font-head); color: var(--c-heading); line-height
 
 
 /* ---------- Avatar (round profile photo) ----------
-   Use: <div class="avatar avatar--lg glow"><div class="avatar__img"><img ...></div></div>
-   Give it ANY square image - the CSS makes it round (overflow hidden + object-fit).
+   Useed: <div class="avatar avatar--lg glow"><div class="avatar__img"><img ...></div></div>
+   Giving it ANY square image - the CSS makes it round (overflow hidden + object-fit).
    The .glow class sits on the outer box so the glow is not clipped.           */
 .avatar { width: var(--avatar-md); aspect-ratio: 1; border-radius: var(--r-round); flex: none; }
 .avatar--md { width: var(--avatar-md); }
