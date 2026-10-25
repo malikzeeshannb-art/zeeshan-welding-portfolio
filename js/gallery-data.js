@@ -29,6 +29,6 @@ var PHOTOS = [
 ];
 
 var VIDEOS = [
-  { id: "zymhpN_oJsU", title: "6G practice", caption: "Practicing a 6G weld and finishing a full electrode in one go. Check out my technique!" },
+  { id: "1N48jyE891I", title: "6G practice", caption: "Practicing a 6G weld and finishing a full electrode in one go. Check out my technique!" },
   // { id: "YOUR_YOUTUBE_ID", title: "6G practice", caption: "Open-root pass" },
 ];
