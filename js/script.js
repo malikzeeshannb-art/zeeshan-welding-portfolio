@@ -303,8 +303,8 @@
 /* ---------- 11. UI SOUND EFFECTS ----------
    One click listener for the whole page (it also catches buttons that are
    created later, like the photo lightbox). Sound files live in assets/sounds/.
-   NOTE: this same block is at the end of js/script.js (index.html) and at the
-   end of js/gallery.js (photos.html + videos.html). Keep both copies identical.
+   NOTE: the same sound engine is at the end of js/gallery.js (photos.html +
+   videos.html). Only the RULES list below is different on each page.
 
    - Only ONE sound plays at a time: a new click stops the previous sound, and
      clicking the same thing quickly just restarts its sound (no stacking).
@@ -323,6 +323,8 @@
   // the first path that exists is used; the others are only a fallback
   var FILES = {
     click:   [BASE + "click-specfic/click-sound.mp3", BASE + "click-sound.mp3"],
+    click2:  [BASE + "click-sound-2.mp3"],
+    click3:  [BASE + "click-3.mp3"],
     launch:  [BASE + "page-launcher.mp3"],
     back:    [BASE + "back.mp3"],
     open:    [BASE + "open.mp3"],
@@ -337,10 +339,14 @@
     { sound: "open", sel: ".lang-menu, .theme-toggle" }
   ] : [
     { sound: "copied",  sel: "#certIdNumber" },
+    { sound: "back",    sel: ".modal__close, .sidebar__close, [data-contact-close]" },     // every close (X) button
+    { sound: "click",   sel: "#langList, #cvList, .modal__actions" },                       // choices inside menus and popups
     { sound: "launch",  sel: ".gcard" },
     { sound: "open",    sel: ".lang-menu, .theme-toggle" },
+    { sound: "click3",  sel: ".contact-grid, .footer__social .social, .fab-whatsapp" },
     { sound: "opening", sel: ".btn--primary" },
-    { sound: "click",   sel: ".sidebar .nav-link, .hero__social, .chip, .social, .text-link, .contact-link" }
+    { sound: "click2",  sel: ".top-nav .nav-link" },                                       // header menu only
+    { sound: "click",   sel: ".sidebar .nav-link, .hero__social, .chip, .text-link, .contact-link" }
   ];
 
   var sounds = {}, current = null, navigating = false;
@@ -419,4 +425,38 @@
 
   // coming back with the browser Back button: allow clicks again
   window.addEventListener("pageshow", function () { navigating = false; });
+})();
+
+/* ---------- 12. HERO BACKGROUND VIDEO (768px and up) ----------
+   The <video class="hero__video"> is in index.html and styled in css/style.css.
+   Here: it loads and plays only on wide screens (and not for people who asked their
+   device for less motion), so phones never download the file. It pauses when the window
+   gets narrow, and the class "has-video" is set while it is really playing, so the CSS
+   hides the still picture only then. The file path is in index.html (data-src). */
+(function () {
+  "use strict";
+  var video = document.querySelector(".hero__video");
+  if (!video) return;
+  var box = video.closest(".hero__media");
+  var wide = window.matchMedia("(min-width: 768px)");
+  var calm = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+  function allowed() { return wide.matches && !calm.matches; }
+
+  function sync() {
+    if (allowed()) {
+      if (!video.getAttribute("src") && video.getAttribute("data-src")) video.src = video.getAttribute("data-src");   // first time only
+      var p = video.play();
+      if (p && p.catch) p.catch(function () { /* blocked by the browser: the picture stays */ });
+    } else {
+      video.pause();
+      if (box) box.classList.remove("has-video");
+    }
+  }
+
+  video.addEventListener("playing", function () { if (box && allowed()) box.classList.add("has-video"); });
+  [wide, calm].forEach(function (mq) {
+    if (mq.addEventListener) mq.addEventListener("change", sync); else mq.addListener(sync);
+  });
+  sync();
 })();

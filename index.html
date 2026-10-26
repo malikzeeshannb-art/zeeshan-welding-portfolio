@@ -23,7 +23,7 @@
   <meta name="theme-color" content="#0a0a0c">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <meta name="author" content="Zeeshan Hafeez">
- <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/images/og.webp" type="image/webp">
   <!-- Google Search Console: after you deploy, paste the verification tag Google gives you here (see SEO notes). Example:
   <meta name="google-site-verification" content="PASTE_YOUR_CODE_HERE">
   -->
@@ -294,6 +294,10 @@
             <source media="(min-width: 768px)" srcset="assets/images/hero-wide-1280.jpg 1280w, assets/images/hero-wide-1920.webp 1834w" sizes="100vw">
             <img src="assets/images/hero-mobile-960.jpg" srcset="assets/images/hero-mobile-640.webp 640w, assets/images/hero-mobile-960.jpg 960w" sizes="100vw" alt="Pipe welder welding a steel pipe with bright sparks" width="960" height="720" fetchpriority="high" decoding="async" onerror="this.remove()" data-i18n-attr="alt:hero.imgAlt">
           </picture>
+          <!-- Desktop background video (768px and up). Below 768px it is hidden and the picture above is used.
+               js/script.js copies data-src into src only on wide screens, so phones never download the video.
+               Softness / darkness: --hero-video-opacity in css/style.css (.hero__video). Space in the file name = %20 -->
+          <video class="hero__video" autoplay muted loop playsinline preload="auto" aria-hidden="true" data-src="assets/gallery/videos/welding%20video.mp4"></video>
         </div>
         <p class="hero__script" aria-hidden="true" data-i18n-html="hero.slogan">Strong Joints.<br>Steady Arc.</p>
 

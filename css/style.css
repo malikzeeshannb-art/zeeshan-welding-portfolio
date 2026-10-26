@@ -669,6 +669,25 @@ h1, h2, h3 { font-family: var(--font-head); color: var(--c-heading); line-height
 }
 .hero__media img { width: 100%; height: 100%; object-fit: cover; object-position: var(--hero-focus); }
 
+/* Hero background video (768px and up only). Below 768px it is hidden and the picture is used, as before.
+   js/script.js adds .has-video once the video is really playing and only then hides the picture,
+   so if the file is missing or blocked the picture simply stays.
+   --hero-video-opacity: 0.5 = soft. The dark fade on the left (.hero__media::before) stays on top of the
+   video, so the text is always readable. Raise the number (e.g. 0.3) if you want the video stronger. */
+.hero__video { display: none; }
+@media (min-width: 768px) {
+  .hero__video {
+     --hero-video-opacity: 0.5; 
+    display: block; position: absolute; inset: 0; z-index: 0;
+    width: 100%; height: 100%; object-fit: cover; object-position: var(--hero-focus);
+    opacity: var(--hero-video-opacity); pointer-events: none;
+  }
+  .hero__media picture { transition: opacity 0.6s var(--ease); }
+  .hero__media.has-video picture { opacity: 0; }
+  [dir="rtl"] .hero__video { transform: scaleX(-1); }      /* same mirroring as the picture */
+}
+@media (prefers-reduced-motion: reduce) { .hero__video { display: none; } }   /* less motion: keep the still picture */
+
 .hero__media::before {                     /* soft fade into page background (top edge) */
   content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
   background: linear-gradient(0deg, var(--c-bg) 0%, transparent 38%);   /* mobile: fades into the page at the bottom */
