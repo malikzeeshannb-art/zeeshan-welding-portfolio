@@ -340,10 +340,9 @@
   ] : [
     { sound: "copied",  sel: "#certIdNumber" },
     { sound: "back",    sel: ".modal__close, .sidebar__close, [data-contact-close]" },     // every close (X) button
-    { sound: "click",   sel: "#langList, #cvList, .modal__actions" },                       // choices inside menus and popups
+    { sound: "click",   sel: "#langList, #cvList, .modal__actions, .contact-grid, .footer__social .social, .fab-whatsapp" },                       // choices inside menus and popups
     { sound: "launch",  sel: ".gcard" },
-    { sound: "open",    sel: ".lang-menu, .theme-toggle" },
-    { sound: "click3",  sel: ".contact-grid, .footer__social .social, .fab-whatsapp" },
+    { sound: "open",    sel: ".lang-menu, .theme-toggle, .menu-btn" },
     { sound: "opening", sel: ".btn--primary" },
     { sound: "click2",  sel: ".top-nav .nav-link" },                                       // header menu only
     { sound: "click",   sel: ".sidebar .nav-link, .hero__social, .chip, .text-link, .contact-link" }
